@@ -1,0 +1,24 @@
+{
+  "name": "my-webpack-project",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "src/main.ts",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.5.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.7.1",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "start:ts": "webpack --watch",
+    "start:js": "nodemon ./dist/main.js"
+  }
+}
