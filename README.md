@@ -1,15 +1,17 @@
-# 🚀 Welcome to your new awesome project!
+# Boilerplate for TypeScript projects
 
-This project has been created using **webpack-cli**, you can now run
+This boilerplate cointains:
+1. ESLint configuration
+2. TS configuration for node env
 
-```
-npm run build
-```
-
-or
-
-```
-yarn build
+## Hwo to run
+```bash
+$ yarn start:ts # run ts watcher for src dir
+$ yarn start:js # run js watcher
 ```
 
-to bundle your application
+## How to build
+```bash
+$ yarn build:prod # production build
+$ yarn build:dev # development build
+```

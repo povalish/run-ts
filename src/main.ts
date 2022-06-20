@@ -1,4 +1,1 @@
-import { command } from './command';
-
-command();
-console.log("Hello World!");
+const helloWorld: string = 'Hello world!';
